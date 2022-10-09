@@ -1,0 +1,14 @@
+@import '../../../styles/Styles.scss';
+.colored-button-outer {
+    .colored-button {
+        background-color: $pink;
+        color: white;
+        font-size: $default;
+        height: 62px;
+        width: 130px;
+        border-radius: 12px;
+        text-transform: unset !important;
+        font-weight: 600;
+        // box-shadow: 2px 2px 10px $pink;
+    }
+}

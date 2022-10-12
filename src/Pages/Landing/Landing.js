@@ -1,13 +1,14 @@
 import React from "react";
 import "./Landing.scss";
 import ColoredButton from "../../Components/Buttons/ColoredButton/ColoredButton";
+import Navbar from "../../Components/Navbar/Navbar";
+import HeroArea from "./Components/HeroArea/HeroArea";
 
 function Landing(props) {
   return (
     <div className="landing">
-      <div className="test">
-        <ColoredButton text={'Sign Up'}></ColoredButton>
-      </div>
+      <Navbar />
+      <HeroArea/>
     </div>
   );
 }

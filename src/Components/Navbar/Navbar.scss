@@ -1,0 +1,48 @@
+@import '../../styles/Styles.scss';
+.navbar {
+    display: flex;
+    padding: $nav-padding;
+    background-color: white;
+    position: sticky;
+    z-index: 5;
+    .logo {
+        height: 70px;
+    }
+    .nav-center {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: $grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            color: $pink;
+        }
+    }
+    .nav-right {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-menu-trigger-outer {
+        display: flex;
+        justify-content: right;
+        .nav-menu-trigger {
+            height: 50px;
+            .menu-icon {
+                color: $grey;
+            }
+        }
+    }
+}

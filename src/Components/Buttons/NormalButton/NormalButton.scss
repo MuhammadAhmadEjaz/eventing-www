@@ -1,8 +1,8 @@
 @import '../../../styles/Styles.scss';
-.colored-button-outer {
-    .colored-button {
-        background-color: $pink;
-        color: white;
+.normal-button-outer {
+    .normal-button {
+        background-color: white;
+        color: $grey;
         font-size: $default;
         height: 62px;
         width: 130px;
@@ -11,8 +11,8 @@
         font-weight: 600;
         box-shadow: none;
     }
-    .colored-button:hover {
-        background-color: $pink-hover;
+    .normal-button:hover {
         box-shadow: $shadow-normal;
+        background-color: white;
     }
 }
